@@ -3,19 +3,19 @@
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
 
-int main{()
+int main() {
 
 char Estado; // Estado da cidade (A - H)
 int Cidade; // Número da cidade (1, 2, 3, 4)
 int População; 
 float Area;
 float PIB;
-int Nº de pontos turisticos;
+int Nºturisticos;
 
 // Cadastro das informaçoes das cartas
 
 printf("Estado (A-H): \n");
-scanf("%c" &Estado);
+scanf(" %c", &Estado);
 printf("Estado: %c\n" , Estado);
 
 printf("Cidade (1-4): \n");
@@ -35,8 +35,8 @@ scanf("%f", &PIB);
 printf("PIB: %f\n" , PIB);
 
 printf("Nº de pontos turisticos: \n");
-scanf("%c" &Nº de pontos turisticos);
-printf("Nº de pontos turisticos: %c\n" , Nº de pontos turisticos);
+scanf("%d",  &Nºturisticos);
+printf("Nºturisticos: %c\n" , Nºturisticos);
 
 
 
