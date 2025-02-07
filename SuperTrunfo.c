@@ -7,39 +7,39 @@ int main() {
 
 char Estado; // Estado da cidade (A - H)
 int Cidade; // Número da cidade (1, 2, 3, 4)
-int População; 
+int Populacao; 
 float Area;
 float PIB;
-int Nºturisticos;
+int Pontos_turisticos;
 
 // Cadastro das informaçoes das cartas
 
 printf("Estado (A-H): \n");
 scanf(" %c", &Estado);
-printf("Estado: %c\n" , Estado);
 
 printf("Cidade (1-4): \n");
 scanf("%d", &Cidade);
-printf("Cidade: %d\n" , Cidade);
 
 printf("População: \n");
-scanf("%d", &População);
-printf("População: %d\n" , População),
+scanf("%d", &Populacao);
 
 printf("Area: \n");
 scanf("%f", &Area);
-printf("Area: %f\n" , Area);
 
 printf("PIB: \n");
 scanf("%f", &PIB);
+
+printf("Pontos_turisticos: \n");
+scanf("%d",  &Pontos_turisticos);
+
+// Vizualizacao das informacoes inseridas
+
+printf("Estado: %c\n" , Estado);
+printf("Cidade: %d\n" , Cidade);
+printf("População: %d\n" , Populacao),
+printf("Area: %f\n" , Area);
 printf("PIB: %f\n" , PIB);
-
-printf("Nº de pontos turisticos: \n");
-scanf("%d",  &Nºturisticos);
-printf("Nºturisticos: %c\n" , Nºturisticos);
-
-
-
+printf("Pontos_turisticos: %d\n" , Pontos_turisticos);
 
 
 
